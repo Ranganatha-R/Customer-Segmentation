@@ -8,6 +8,24 @@ This project focuses on grouping customers based on their purchasing behavior to
 * **Data Visualization:** Power BI
 * **Documentation:** MS Word / PowerPoint
 
+  ## ⚙️ Work Flow
+
+### 1. SQL Data Analysis & Preparation
+* **Data Exploration:** Connected to the `project_shopping_trends` database and performed initial EDA to understand the schema and record counts.
+* **Feature Engineering:** Created and updated a new `age_group` column to facilitate demographic analysis.
+* **Cleaning & Validation:** Verified data integrity by checking for null values and errors; renamed tables for query efficiency.
+* **Aggregations:** Performed multi-dimensional analysis including total spending by category, location, and season, as well as payment method distribution by age.
+
+### 2. Power BI Visualization & Advanced Analytics
+* **Problem Solving:** Encountered SQL connection issues (Error 40); successfully pivoted to a CSV/Excel-based workflow to ensure project continuity.
+* **Advanced Segmentation (Clustering):** Self-taught the concept of **Customer Clustering** via research. Implemented K-Means style clusters and developed a matrix table for cluster-wise metrics.
+* **Dashboard Design:** Built an interactive report focusing on scatter plots for segment visualization and matrix tables for deep-dive KPIs.
+* **Refinement:** Polished the UI by adjusting transparency and layout; created a `cluster_level` column for clearer business representation.
+
+### 3. Insights & Final Reporting
+* **Strategic Analysis:** Independently drafted insights, later refined through research into industry-standard "Insights vs. Recommendations" formats.
+* **Stakeholder Presentation:** Structured a comprehensive slide deck covering Objectives, Customer Segmentation, and Strategic Conclusions.
+
 ## 📊 Key Analysis: RFM Scoring
 I used the **RFM (Recency, Frequency, Monetary)** model to categorize customers:
 * **High Value:** Recent, frequent, and high spenders.
