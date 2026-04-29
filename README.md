@@ -23,3 +23,8 @@ I used the **RFM (Recency, Frequency, Monetary)** model to categorize customers:
 * **SQL Script:** Contains the queries used for data cleaning and RFM calculation.
 * **Power BI File (.pbix):** The interactive dashboard.
 * **Project Report:** Detailed step-by-step documentation.
+
+  ## 🖥️ Dashboard Preview
+![Dashboard_main](INSERT_FIRST_IMAGE_NAME_HERE)
+![Dashboard_side](INSERT_SECOND_IMAGE_NAME_HERE)
+
